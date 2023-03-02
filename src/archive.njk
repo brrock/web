@@ -1,0 +1,13 @@
+---
+layout: 'base.njk'
+title: Archive
+---
+
+<div class="section container">
+  <h1 class="section-title">Recent Articles</h1>
+  <ul class="articles_list flow" role="list">
+    {%- for post in collections.archive | reverse-%}
+      {% include 'article-snippet.njk' %}
+    {%-endfor-%}
+  </ul>
+</div>

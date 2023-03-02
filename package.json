@@ -1,0 +1,25 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Welcome to my blog repo",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brrock/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brrock/blog/issues"
+  },
+  "homepage": "https://github.com/brrock/blog#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "luxon": "^3.2.1"
+  }
+}
