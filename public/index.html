@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://praxis-gear-332712.firebaseapp.com/favicons/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://praxis-gear-332712.firebaseapp.com/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://praxis-gear-332712.firebaseapp.com/favicons/favicon-32x32.png">
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" ></script>
+    <title>Home |BRblog</title>
+</head>
+<body>
+    <main>
+        <header class="page-header">
+  <div class="container">
+    <div class="page-header__content">
+      <div>
+      <a href="/"> <h3 style="color: gray;">Benjy Blog</h3> </a>
+      </div>
+      <nav>
+        
+        <ul role="list" class="nav-list flex-group">
+          <li>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/blog/">Blog</a>
+          </li>
+                    <li>
+            <a href="/archive/">Archive</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+       
+
+<main>
+  <section class="hero">
+    <div class="container flow">
+      <div class="hero__content flow">
+        <h1 class="section-title">Welcome to my blog!</h1>
+        <p>Welcome to my blog I will be posting artices every week/month and I will talk about food and tech.</p>
+        <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+        <div class="flex-group">
+          <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
+          <a href="/blog" class="btn btn--neutral">Most recent articles</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="featured-articles" class="featured-articles">
+    <div class="container flow">
+      <h2 class="section-title text-center ">Featured articles</h2>
+      <p class="text-center">Here are some of my favourite articles.</p>
+      <ul class="articles_list flow" role="list"><li>
+    <article class="snippet">
+        <img src="https://i.imgur.com/yDKhNmS.png" alt="A screenshot of my blog"/>
+        <h3 class="spinnet_title">
+            <a href="/blog/2023-02-22-my-first-post/">My first post!</a>
+        </h3>
+        <p class="snippet_meta">by
+            <span>Benjy R on 22 Feb 2023</span>
+        </p>
+        <p class="snippet__body">My new blog makes it easier for me to post so that I can post more</p>
+        <a href="/blog/2023-02-22-my-first-post/" class="btn btn--primary">
+            Continue Reaing</a>
+    </article>
+</li></ul>
+      </main>
+        <footer class="site-footer">
+      <a href="http://"></a>
+  <p>© 2023 BR. All rights reserved.</p>
+</footer>
+    </main>
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
+</body>
+</html>
