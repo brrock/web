@@ -7,6 +7,6 @@ collections:
   - name:  "about"
     label: "About"
     folder: "src/about"
-    create: trueay}}-{{slug}}"
+    create: {{trueay}}-{{slug}}"
     fields:
       -  { label: "Body", name: "body", widget: "markdown" }

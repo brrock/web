@@ -9,72 +9,89 @@
     <link rel="apple-touch-icon" sizes="180x180" href="https://praxis-gear-332712.firebaseapp.com/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="https://praxis-gear-332712.firebaseapp.com/favicons/favicon-32x32.png">
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js" ></script>
-    <title>Home |BRblog</title>
+    <title>Home</title>
 </head>
 <body>
     <main>
-        <header class="page-header">
-  <div class="container">
-    <div class="page-header__content">
-      <div>
-      <a href="/"> <h3 style="color: gray;">Benjy Blog</h3> </a>
+      <nav class="nav-graidient justify-between ">
+    <div class="container">
+      <h1 class="site-title"><a href="/">Benjy Ross</a></h1>
+      <ul class="display-f">
+        <li class="ml-1 text-hover-secondary"><a href="/#work">My Projects</a></li>
+        <li class="ml-1 text-hover-secondary"><a href="/about">About me</a></li>
+        <li class="ml-1 text-hover-secondary"><a href="https://brossblog.netlify.app/">Blog</a></li>
+      </ul>
+    </div>
+  </nav>
+      <div class="container mt-5">
+    <div class="row justify-center">
+      <div class="col-12-xs col-5-md">
+        <h2>
+          <div class="font-xxl text-gradient">Food</div>
+          <div class="font-xxl text-gradient">with tech</div>
+        </h2>
+        <p class="text-gray mt-2 mb-3"></p>
+        <div style="display: inline-flex; text-align: center;">
+        <a href="#work" class="btn-complement-primary">View my Work</a>
+        <a href="about.html" class="btn-complement-primary">about me</a>
       </div>
-      <nav>
-        
-        <ul role="list" class="nav-list flex-group">
-          <li>
-            <a href="/">Home</a>
-          </li>
-          <li>
-            <a href="/blog/">Blog</a>
-          </li>
-                    <li>
-            <a href="/archive/">Archive</a>
-          </li>
-        </ul>
-      </nav>
+    </div>
+      <div class="col-12-xs col-5-md">
+        <img src="https://img.icons8.com/fluency/96/000000/laptop.png"/>
+      </div>
     </div>
   </div>
-</header>
-       
-
-<main>
-  <section class="hero">
-    <div class="container flow">
-      <div class="hero__content flow">
-        <h1 class="section-title">Welcome to my blog!</h1>
-        <p>Welcome to my blog I will be posting artices every week/month and I will talk about food and tech.</p>
-        <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
-        <div class="flex-group">
-          <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
-          <a href="/blog" class="btn btn--neutral">Most recent articles</a>
+<!-- work section -->
+  <section id="work" class="mt-5">
+    <div class="container">
+      <h2 class="mb-2">Some of my Work</h2>
+      <div class="row gap-2">
+        <div class="col-12-xs col-6-md col-3-lg">
+          <div class="card p-0">
+            <h3 class="card-title m-1">
+               <span class="badge-orange text-white ml-1">new</span>
+               Blog
+            </h3>
+            <br>
+            <img src="https://img.icons8.com/external-wanicon-lineal-color-wanicon/64/000000/external-blog-digital-content-wanicon-lineal-color-wanicon.png" class="img-center"/>
+            <p class="m-1"> Visit my amazing blog that covers food and tech. </p>
+            <a href="blog/index.html">Go to it now</a>
+          </div>
         </div>
+        <div class="col-12-xs col-6-md col-3-lg">
+          <div class="card p-0">
+            <h3 class="card-title m-1">Projects</h3>
+            <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/000000/external-projects-resume-flaticons-lineal-color-flat-icons.png"/>
+            <p class="m-1"> All my projects are free to run and download.</p>
+            <a href="#" >Not finished !</a>
+
+          </div>
+        </div>
+        <div class="col-12-xs col-6-md col-3-lg">
+          <div class="card p-0">
+            <h3 class="card-title m-1">Password Generater</h3>
+            <img src="https://img.icons8.com/stickers/100/000000/password.png" alt="pasicon">
+            <p class="m-1"> Makes easy to remember and secure passwords</p>
+            <a href="#">Not finished !</a>
+          </div>
+        </div>
+          </div>
+        </div>
+      <div class="row justify-center mt-2" style="display: none;">
+        <a href="#" class="btn-primary">view all</a>
       </div>
     </div>
   </section>
-  <section id="featured-articles" class="featured-articles">
-    <div class="container flow">
-      <h2 class="section-title text-center ">Featured articles</h2>
-      <p class="text-center">Here are some of my favourite articles.</p>
-      <ul class="articles_list flow" role="list"><li>
-    <article class="snippet">
-        <img src="https://i.imgur.com/yDKhNmS.png" alt="A screenshot of my blog"/>
-        <h3 class="spinnet_title">
-            <a href="/blog/2023-02-22-my-first-post/">My first post!</a>
-        </h3>
-        <p class="snippet_meta">by
-            <span>Benjy R on 22 Feb 2023</span>
-        </p>
-        <p class="snippet__body">My new blog makes it easier for me to post so that I can post more</p>
-        <a href="/blog/2023-02-22-my-first-post/" class="btn btn--primary">
-            Continue Reaing</a>
-    </article>
-</li></ul>
-      </main>
-        <footer class="site-footer">
-      <a href="http://"></a>
-  <p>© 2023 BR. All rights reserved.</p>
-</footer>
+
+    <footer class="bg-gray-light-7 pt-3 pb-3 mt-5">
+      <div class="container">
+        By Benjy Ross
+        Please note that this web site is permantly growing.
+        I may not have finished everything as it's an on growing development.
+        <br>
+        <a href="License.html">License</a>
+        <a href="/submit">Sumbit errors</a>
+      </footer>
     </main>
 <script>
   if (window.netlifyIdentity) {
