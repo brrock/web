@@ -1,3 +1,13 @@
+
+# dependencies installed by npm
 node_modules
+
+# build artefacts
 public
-package-lock.json
+css
+
+# secrets and errors
+.env
+.log
+
+# macOS related files
