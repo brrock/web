@@ -4,13 +4,7 @@ backend:
 media_folder: "public/assets/blog" 
 public_folder: "/assets/blog" 
 collections:
-- name:  "about"
-    label: "About"
-    folder: "src/about"
-    create: {{trueay}}-{{slug}}"
-    fields:
-      -  { label: "Body", name: "body", widget: "markdown" }
-- name: "projects"
+  - name: "projects"
     label: "Projects"
     folder: "src/projects"
     create: true # Allow users to create new documents in this collection
