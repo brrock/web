@@ -5,6 +5,20 @@
     margin: 0;
     padding: 0
 }
+.article-title,
+.section-title {
+  color:#193EFF;
+}
+
+.article-title {
+  font-size: 2rem;
+}
+
+.section-title {
+  font-size: 1.875rem;
+}
+
+
 
 body {
     font-family: Poppins;
