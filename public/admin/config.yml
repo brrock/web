@@ -4,9 +4,14 @@ backend:
 media_folder: "public/assets/blog" 
 public_folder: "/assets/blog" 
 collections:
-  - name:  "about"
-    label: "About"
-    folder: "src/about"
-    create: {{trueay}}-{{slug}}"
+  - name: "projects"
+    label: "Projects"
+    folder: "src/projects"
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields:
-      -  { label: "Body", name: "body", widget: "markdown" }
+      - {label: "Layout", name: "layout", widget: "hidden", default: "project.njk"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      -  { label: "Description", name: "description", widget: "string" }
+      - {label: "Body", name: "body", widget: "markdown"}

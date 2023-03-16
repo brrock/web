@@ -1,14 +1,8 @@
-<li>
-    <article class="snippet">
-        <img src="{{ post.data.image }}" alt="{{post.data.imageAlt}}"/>
-        <h3 class="spinnet_title">
-            <a href="{{post.url}}">{{post.data.title}}</a>
-        </h3>
-        <p class="snippet_meta">by
-            <span>{{post.data.author}} on {{post.data.date | postDate}}</span>
-        </p>
-        <p class="snippet__body">{{post.data.description}}</p>
-        <a href="{{post.url}}" class="btn btn--primary">
-            Continue Reaing</a>
-    </article>
-</li>
+ <div class="col-12-xs col-6-md col-3-lg">
+      <div class="card p-0">
+        <h3 class="card-title m-1">{{post.data.title}}</h3>
+        <img src="{{project.data.image}}">
+        <p class="m-1">{{project.data.description}}</p>
+        <a href="{{project.url}}">Go there</a>
+      </div>
+    </div>
