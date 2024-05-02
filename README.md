@@ -1,3 +1,1 @@
-# JAMStack personal blog - starter files
-
-Welcome to my blog repo
+# My main website viewable at <a href="https://benjyross.xyz"> here</a>
