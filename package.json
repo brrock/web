@@ -21,5 +21,10 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.1",
     "luxon": "^3.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-purgecss": "^6.0.0"
   }
 }
