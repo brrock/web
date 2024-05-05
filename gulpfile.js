@@ -5,7 +5,7 @@ const purgecss = require('gulp-purgecss')
 gulp.task('minify-css', () => {
     return gulp.src('src/*.css')
       .pipe(cleanCSS({compatibility: 'ie8'}))
-      .pipe(gulp.dest('src/output'));
+      .pipe(gulp.dest('src/'));
   });
   gulp.task('purgecss', () => {
     return gulp.src('src/**/*.css')
